@@ -20,7 +20,7 @@ void PrintArray(double[,]array)
     {
         for (int j = 0; j < n; j++)
         {
-            Console.Write($"{Math.Round(array[i,j],2)} ");
+            Console.Write($"{Math.Round(array[i,j],1)} ");
              
         }
         Console.WriteLine();

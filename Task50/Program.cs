@@ -37,7 +37,7 @@ int PrintNumber(int [,] array)
  }
 void CheckInBoundaries (int [,]array)
 {
-  if (positionRows>=m || positionColumns>=n) Console.WriteLine("Такого числа не существует");
+  if (positionRows>=m || positionRows<0|| positionColumns>=n|| positionColumns<0) Console.WriteLine("Такого числа не существует");
   else Console.WriteLine(PrintNumber(array));
 }
 CheckInBoundaries(array);
